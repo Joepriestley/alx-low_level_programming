@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - main code
+ * main - main code block
  *
- * Return: returns 0
+ * Return: returns 0 for success
  */
 
 int main(void)
@@ -14,5 +14,6 @@ int main(void)
 		if (i != 'q' && i != 'e')
 			putchar(i);
 	putchar('\n');
+
 	return (0);
 }
