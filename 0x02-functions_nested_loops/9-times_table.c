@@ -1,5 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * times_table - prints multibles of a number
+ *
+ * Return: returns 0
+ */
 
 void times_table(void)
 {
@@ -16,7 +21,7 @@ void times_table(void)
 			{
 				printf("%2d", k);
 				if (j != 9)
-					printf(",");
+					printf(", ");
 
 			}
 
