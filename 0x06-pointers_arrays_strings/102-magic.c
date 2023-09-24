@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - dereferences the value
+ *
+ * Return: return 0 for success
+ */
+
 int main(void)
 {
 	int n;
